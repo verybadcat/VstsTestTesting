@@ -11,9 +11,9 @@ namespace TestTesting
             Assert.True(true);
         }
         [Fact]
-        public void Failing()
+        public void NoLongerFailing()
         {
-            Assert.True(false);
+            Assert.False(false);
         }
         [Fact(Skip ="Skipping")]
         public void Skipped()
